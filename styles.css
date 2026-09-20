@@ -200,3 +200,5 @@ main { padding-bottom: 46vh; }
 
 .detail .body { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
 .detail .lead-in { margin: 0; font-size: 14.5px; line-height: 1.45; color: var(--ink-soft); max-width: 58ch; }
+
+.detail.notags > :first-child { grid-column: 2; }
